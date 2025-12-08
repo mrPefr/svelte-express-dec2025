@@ -60,7 +60,7 @@ router.delete("/guitars/:id", async (req, res) => {
     guitars = guitars.filter(g => g.id !== id);
     await updateGuitars(guitars);
 
-    res.json({ message: "Guitar deleted", id });
+    res.status(200).json({ message: "Guitar deleted", id });
 });
 
 module.exports = router;

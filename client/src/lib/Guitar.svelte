@@ -1,6 +1,7 @@
 <script>
-
+ 
     export let guitar;
+
 
 
 </script>
@@ -10,6 +11,6 @@
 
     <h2>{guitar.brand} - {guitar.model}</h2>
     <p><i>price: {guitar.price}</i></p>
-
+ 
 
 </div>
