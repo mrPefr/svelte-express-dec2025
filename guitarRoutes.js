@@ -42,7 +42,7 @@ router.put("/guitars/:id", async (req, res) => {
     guitars[index] = { ...guitars[index], ...updateData };
     await updateGuitars(guitars);
 
-    res.json(guitars[index]);
+    res.status(200).json(guitars[index]);
 });
 
 // -----------------------------

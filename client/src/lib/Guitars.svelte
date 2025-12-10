@@ -1,8 +1,9 @@
 <script>
     import Guitar from "./Guitar.svelte";
 
+    import {guitars} from "../store.js";
 
-    let guitars = $state([]);
+   
 
     getGuitars();
     async function getGuitars(){
@@ -13,7 +14,7 @@
 
         console.log(data);
 
-        guitars = data;
+        guitars.update(prev => [...prev, ...data]);
 
     }
 
@@ -28,7 +29,7 @@
 <h2>Guitars</h2>
 
 
-{#each guitars as guitar (guitar.id)}
+{#each $guitars as guitar (guitar.id)}
 
     <Guitar {guitar} ></Guitar>
 

@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 const {getGuitars, updateGuitars} = require("./guitars.js");
-const guitarRoutes = require("./routes.js");
+const guitarRoutes = require("./guitarRoutes.js");
+const authRoutes = require("./authRoutes.js");
 const port = process.env.port || 3000;
 
 app.listen(port, () => {
@@ -15,3 +16,6 @@ app.use(express.static("client/dist"));
 
 // guitars api
 app.use("/api", guitarRoutes);
+
+// Auth routes
+app.use("/auth", authRoutes);

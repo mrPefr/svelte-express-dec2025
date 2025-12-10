@@ -1,83 +1,76 @@
 [
-  {
-    "id": "id_1",
-    "brand": "Fender",
-    "model": "Stratocaster",
-    "price": 1299,
-    "img": "images/fender_stratocaster.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_2",
-    "brand": "Gibson",
-    "model": "Les Paul Standard",
-    "price": 2499,
-    "img": "images/gibson_les_paul_standard.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_3",
-    "brand": "Ibanez",
-    "model": "RG550",
-    "price": 999,
-    "img": "images/ibanez_rg550.jpg",
-    "likes": 0
-  }
-  ,
-  {
-    "id": "id_4",
-    "brand": "PRS",
-    "model": "Custom 24",
-    "price": 3499,
-    "img": "images/prs_custom_24.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_5",
-    "brand": "Yamaha",
-    "model": "Pacifica 112V",
-    "price": 299,
-    "img": "images/yamaha_pacifica_112v.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_6",
-    "brand": "ESP",
-    "model": "LTD EC-1000",
-    "price": 1199,
-    "img": "images/esp_ltd_ec1000.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_7",
-    "brand": "Schecter",
-    "model": "C-1 Hellraiser",
-    "price": 1099,
-    "img": "images/schecter_c1_hellraiser.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_8",
-    "brand": "Jackson",
-    "model": "Soloist SLX",
-    "price": 799,
-    "img": "images/jackson_soloist_slx.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_9",
-    "brand": "Gretsch",
-    "model": "G5420T Electromatic",
-    "price": 899,
-    "img": "images/gretsch_g5420t.jpg",
-    "likes": 0
-  },
-  {
-    "id": "id_10",
-    "brand": "Taylor",
-    "model": "214ce",
-    "price": 1199,
-    "img": "images/taylor_214ce.jpg",
-    "likes": 0
-  }
+    {
+        "id": "id_4",
+        "brand": "PRS",
+        "model": "Custom 24",
+        "price": "3499",
+        "img": "images/prs_custom_24.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_5",
+        "brand": "Yamaha",
+        "model": "Pacifica 312V",
+        "price": 299,
+        "img": "images/yamaha_pacifica_112v.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_6",
+        "brand": "ESP",
+        "model": "LTD EC-1000",
+        "price": 1199,
+        "img": "images/esp_ltd_ec1000.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_7",
+        "brand": "Schecter",
+        "model": "C-1 Hellraiser",
+        "price": 1099,
+        "img": "images/schecter_c1_hellraiser.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_8",
+        "brand": "Jackson",
+        "model": "Soloist SLX",
+        "price": 799,
+        "img": "images/jackson_soloist_slx.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_9",
+        "brand": "Gretsch",
+        "model": "G5420T Electromatic",
+        "price": 899,
+        "img": "images/gretsch_g5420t.jpg",
+        "likes": 0
+    },
+    {
+        "id": "id_10",
+        "brand": "Taylor",
+        "model": "214ce",
+        "price": 1199,
+        "img": "images/taylor_214ce.jpg",
+        "likes": 0
+    },
+    {
+        "brand": "Martin",
+        "model": "00x1Ae",
+        "price": "700",
+        "id": "id_1765198748692"
+    },
+    {
+        "brand": "Eko",
+        "model": "Aire",
+        "price": "345",
+        "id": "id_1765198809899"
+    },
+    {
+        "brand": "Fender",
+        "model": "Strata",
+        "price": "899",
+        "id": "id_1765199525264"
+    }
 ]
