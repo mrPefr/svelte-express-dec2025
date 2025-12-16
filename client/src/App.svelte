@@ -2,6 +2,7 @@
     import CreateGuitar from "./lib/CreateGuitar.svelte";
     import Header from "./lib/Header.svelte";
     import Guitars from "./lib/Guitars.svelte";
+    import Auth from "./lib/Auth.svelte";
 </script>
 
 
@@ -15,6 +16,7 @@
   </div>
   <id id="auth" class="content">
     <h2>AUTHENTICATION</h2>
+    <Auth />
 
   </id>
 
@@ -28,9 +30,11 @@
 
   .content{
     display:none;
+    padding-top:30vh;
   }
   :target{
     display:block;
   }
+  
 
 </style>
